@@ -1,44 +1,68 @@
-# 1. Entrar en la carpeta del proyecto, en la terminal
+# Proyecto Pokémon MVVM - Vite + Vue
+## Descripción
+
+Este proyecto consiste en un juego de selección y batalla de Pokémon desarrollado con arquitectura MVVM (Model-View-ViewModel), utilizando Vite y Vue para crear una interfaz moderna y reactiva.
+
+El usuario puede:
+- Introducir los nombres de los jugadores.
+- Seleccionar un equipo de Pokémon.
+- Ordenar los Pokémon según distintos criterios.
+- Visualizar la batalla Pokémon con animaciones y efectos.
+- El sistema permite juego contra otro jugador o contra la CPU.
+
+
+### Requisitos previos:
+- Navegador (Firefox, Chrome…)
+
+### Pasos para ejecutarlo en local:
+
+1. Abrir la carpeta del proyecto en la terminal
+2.  http-server --cors
+
+##  Uso
+
+1. Al iniciar, escribe el nombre del jugador o jugadores.
+2. Selecciona Pokémons hasta gastar los créditos.
+3. Comienza la batalla y observa los resultados.
+4. Gana quien tenga Pokémons supervivientes al final del combate.
+
+## Características
+
+- Arquitectura MVVM clara y separada
+- Uso de Vue + Vite
+- Lógica de combate y selección dinámica
+- CPU autoselecciona equipo si no hay segundo jugador
+- Imágenes y poderes especiales cargados desde JSON
+
+
+## Pasos realizados con Git
+# Entrar en la carpeta del proyecto
 cd ~/Desktop/DAW/Programación\ Gerard/Ra7/P01G
 
-# 2. Inicializar repositorio Git
+# Inicializar repositorio Git
 git init
 
-# 3. Configurar usuario 
+# Configurar usuario
 git config --global user.name "Martina Paredes"
 git config --global user.email "mpared@insdanielblanxart.cat"
 
-# 4. Añadir todos los archivos al repositorio
-git add .
+# Añadir todos los archivos al repositorio
+git add . 
 
-# 5. Primer commit (sin README todavía)
+# Hacer commits 
 git commit -m "Commit inicial, sin readme"
 
-# 6. Crear el archivo README.md con descripción del proyecto 
-
-# 7. Añadir el README al control de versiones
-git add README.md
-
-# 8. Segundo commit
-git commit -m "Creacuón del readme con intrucciones hasta el momento"
-
-# 9. Crear el repositorio remoto en GitHub, en la página web 
+# Crear el repositorio remoto en GitHub, en la página web 
 https://github.com/mpared/pokemon-vue.git
 
-# 10. Enlazar el repositorio remoto en la terminal
+# Enlazar el repositorio remoto en la terminal
 git remote add origin https://github.com/mpared/pokemon-vue.git
 
-# 11. verificar el origen
+# verificar el origen
 git remote -v
 
-# 12. Hacer el push inicial
+# Hacer el push inicial
 git push -u origin master
 
-# 13. Añadir otra vez el README, para actualizar
-git add README.md
-
-# 14. Tercer commit
-git commit -m "README actualizado con los pasos finales"
-
-# 15. Pide una autenticación con TOKEN al hacer el paso 12
+# Pide una autenticación con TOKEN al hacer el paso 12
 En ajustes, tokens, generar un "New token (classic) y habilitar "repo".

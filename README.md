@@ -34,8 +34,11 @@ git remote -v
 # 12. Hacer el push inicial
 git push -u origin master
 
-# 13. Añado otra vez el README, para actualizar
+# 13. Añadir otra vez el README, para actualizar
 git add README.md
 
 # 14. Tercer commit
 git commit -m "README actualizado con los pasos finales"
+
+# 15. Pide una autenticación con TOKEN al hacer el paso 12
+En ajustes, tokens, generar un "New token (classic) y habilitar "repo".
